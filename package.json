@@ -1,0 +1,33 @@
+{
+    "name": "typescript-samples",
+    "version": "1.0.0",
+    "description": "My webpack project",
+    "main": "index.js",
+    "scripts": {
+        "start": "concurrently \"lite-server\" \"tsc\"",
+
+        "build": "webpack"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-syntax-dynamic-import": "^6.18.0",
+        "closure-webpack-plugin": "^2.0.1",
+        "concurrently": "^4.1.1",
+        "google-closure-compiler": "^20190729.0.0",
+        "html-webpack-plugin": "^3.2.0",
+        "lite-server": "^2.5.3",
+        "ts-loader": "^6.0.4",
+        "typescript": "^3.5.3",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-dev-middleware": "^1.12.0",
+        "webpack-dev-server": "^2.11.5",
+        "webpack-merge": "^4.2.1"
+    }
+}

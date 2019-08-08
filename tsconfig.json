@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "module": "amd",
+    "strict": true,
+ 
+    "watch": true,
+    "outFile": "script/main.js",
+    
+    "noImplicitAny": true,
+  
+  
+  }
+}
